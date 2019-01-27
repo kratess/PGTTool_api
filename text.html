@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3 id="element"></h3>
+
+    <script src="https://cdn.jsdelivr.net/gh/kratess/PGTTool_api/PGTTool_api.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      PGTTool_api.getStatusMC("mc.hypixel.net",
+      function(status, err) {
+        if (status !== null) {
+          document.getElementById("element").innerHTML = "TEST Minecraft - HYPIXEL online: " + status.online + " - optional - " + err;
+        } else {
+          //error
+          document.getElementById("element").innerHTML = "NOT WORK - optional - " + err;
+        }
+      });
+    </script>
+  </body>
+</html>
