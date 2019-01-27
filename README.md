@@ -1,7 +1,7 @@
 # PGTTool
 PGameTrackerTool is a set of tools and api for games
 
-## HOW IT WORK
+## HOW IT WORKS
 For now it works only with Minecraft status
 
 ```
@@ -29,14 +29,3 @@ status.min
 status.max
 status.last_update
 ```
-
-
-
-
-
-
-
-
-
-
-
